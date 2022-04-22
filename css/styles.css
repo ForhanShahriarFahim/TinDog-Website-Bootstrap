@@ -52,3 +52,28 @@ h1{
     transform: rotate(25deg);
     width: 60%;
 }
+
+/* with space parent child hierarchicla selectors red right to left */
+
+/* no space read left to right with no hierarchy and no parent/ child ralationship */
+
+#title .container-fluid{
+    padding: 3% 14% 7%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #FF4C68;
+}
