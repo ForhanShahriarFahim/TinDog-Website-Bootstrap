@@ -17,6 +17,14 @@ h1{
     line-height: 1.5;
 }
 
+h3{
+    font-family:  "Montserrat-Bold", sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
 
 /* Navigatoin Bar */
 
@@ -57,15 +65,16 @@ h1{
 
 /* no space read left to right with no hierarchy and no parent/ child ralationship */
 
-#title .container-fluid{
-    padding: 3% 14% 7%;
+
+/* Feature section */
+
+#features{
+    padding: 7% 15%;
 }
 
-.feature-title{
-    font-size: 1.5rem;
-}
 
-.feature-box{
+.feature-box{    
+    text-align: center;
     padding: 4.5%;
 }
 
